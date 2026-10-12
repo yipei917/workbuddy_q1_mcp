@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+captures/*
+!captures/.gitignore
+*.log
+.DS_Store
+.sshpass
+*.pem
+id_ed25519*
+!*.pub
+mcp.json.local

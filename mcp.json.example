@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "qiyuan-q1": {
+      "command": "/绝对路径/到/python3",
+      "args": [
+        "/绝对路径/到/developer-kit/workbuddy-q1/server.py"
+      ],
+      "cwd": "/绝对路径/到/developer-kit/workbuddy-q1",
+      "env": {
+        "QIYUAN_ROBOT_HOST": "机器人局域网IP",
+        "QIYUAN_ROBOT_USER": "run",
+        "QIYUAN_ROBOT_SSH_KEY": "/绝对路径/到/ssh私钥",
+        "QIYUAN_ROBOT_RPC_PORT": "50091",
+        "QIYUAN_ENABLE_DANCE": "1"
+      },
+      "disabled": false
+    }
+  }
+}
