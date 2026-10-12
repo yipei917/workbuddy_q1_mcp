@@ -70,8 +70,15 @@ export SSH_KEY="$HOME/.ssh/id_ed25519_q1"      # 建议专用密钥
 
 ### 0. 获取代码
 
+国内优先 Gitee，也可使用 GitHub：
+
 ```bash
-git clone <本仓库 Git 地址> "$REPO_DIR"
+# Gitee
+git clone https://gitee.com/yipei917/workbuddy_q1_mcp.git "$REPO_DIR"
+
+# 或 GitHub
+# git clone https://github.com/yipei917/workbuddy_q1_mcp.git "$REPO_DIR"
+
 cd "$REPO_DIR"
 ```
 
